@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Data Table </title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- ========================================================= -->
+
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/datatables.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<!-- =============== Design & Develop By = MJ MARAZ   ====================== -->
+
+<body class="container pt-5">
+    <div class="row g-1 mb-4">
+        <div class="col-md-3">
+            <input type="date" name="minDate" id="minDate" class="form-control" placeholder="Başlangıç Tarihi">
+        </div>
+        <div class="col-md-3">
+            <input type="date" name="maxDate" id="maxDate" class="form-control" placeholder="Bitiş Tarihi">
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-primary" id="btnFilter">
+                Ara
+            </button>
+        </div>
+        <div class="col-md-4">
+            <select class="form-control status-dropdown">
+                <option value="">All</option>
+                <option value="Edinburgh">Edinburgh</option>
+                <option value="Tokyo">Tokyo</option>
+                <option value="San Francisco">San Francisco</option>
+                <!-- Diğer ofisler -->
+            </select>
+        </div>
+    </div>
+
+    <table id="example" class="display table table-responsive table-striped table-bordered" style="width:100%">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>date</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>date</th>
+            </tr>
+        </tfoot>
+    </table>
+
+
+
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/datatables.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
