@@ -1,0 +1,12 @@
+.dataTables_paginate .pagination .paginate_button{
+    padding: 0px !important;
+}
+
+.dataTables_filter{
+    margin-bottom: 10px;
+}
+.dataTables_wrapper .dataTables_length select{
+    width: 55px;
+}
+
+.thead-position{position: sticky; position: -webkit-sticky; top:0px}
